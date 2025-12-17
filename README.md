@@ -72,6 +72,6 @@ git clone https://github.com/priti9555/Food_delivery_projects.git
 4. **Run the project**
    ```bash
    npm run dev
-```
+
 
 
