@@ -1,0 +1,91 @@
+.navbar{
+    padding: 20px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#btn{
+    height: 30px;
+    width: 70px;
+    font-size: 15px;
+    border-radius: 15px;
+    transition: all 2.5s;
+    cursor: pointer;
+
+}
+.navbar .logo {
+    width: 150px;
+}
+.nav-menu {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    color: #49557e;
+    font-size: 18px;
+}
+.nav-right{
+    display: flex;
+    align-items: center;
+     gap: 40px;
+}
+.nav button{
+    background: transparent;
+    font-size: 16px;
+    color: #49557e;
+    border: 1px solid tomato;
+    padding: 10px 3px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.3s
+}
+.nav button:hover{
+    background: #fff4f2; 
+}
+         
+.nav .active{
+    padding-bottom: 2px;
+    border-bottom: 2px solid #49557e;
+}
+.nav li{
+    cursor: pointer;
+}
+.nav-search-icon{
+    position: relative;
+}
+.nav-search-icon .dot{
+    position: absolute;
+    min-width: 10px;
+    min-height: 10px;
+    background-color: tomato;
+    border-radius: 5px;
+    top: -8px;
+    right: -8px;
+}
+@media (max-width: 900px) {
+    .navber .logo{
+        width: 140px;
+    }
+    .nav-menu{
+        gap: 15px;
+        font-size: 16px;
+    }
+    .nav-right{
+        gap: 20px;
+    }
+    .nav-right img{
+        width: 20px;
+    }
+    .nav-right button{
+        padding: 7px 20px;
+        font-size: 15px;
+       
+    }
+}
+@media (max-width: 600px) {
+    .nav-menu{
+        display: none;
+        
+    }
+    
+   
+}
