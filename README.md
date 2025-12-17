@@ -49,5 +49,29 @@ Food_delivery_project/
 └── README.md
 ```
 
-## 📁 Project Structure
+
+---
+
+## ⚙️ Installation & Setup
+
+1. **Clone the repository**
+```bash
+git clone https://github.com/priti9555/Food_delivery_projects.git
+```
+
+2. **Navigate to project folder**
+   ```bash
+   cd Food_delivery_project
+```
+
+3. **Install dependencies**
+  ```bash
+   npm install
+```
+
+4. **Run the project**
+   ```bash
+   npm run dev
+```
+
 
