@@ -60,13 +60,13 @@ git clone https://github.com/priti9555/Food_delivery_projects.git
 ```
 
 2. **Navigate to project folder**
-   ```bash
+```bash
    cd Food_delivery_project
 ```
 
 3. **Install dependencies**
-  ```bash
-   npm install
+```bash
+    npm install
 ```
 
 4. **Run the project**
